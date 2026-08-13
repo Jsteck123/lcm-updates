@@ -4,11 +4,11 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260813-141128.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-141128.zip)**
+**[Download lcm-update-20260813-142854.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-142854.zip)**
 
 Same file: **[lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)**
 
-Adds **Load** on pulled Job Board cards and a new **Active Jobs** page for live timers.
+Active Jobs shows only the signed-in operator. Machine page toggles between their running jobs.
 
 ## Install
 
