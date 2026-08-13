@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260813-214005.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-214005.zip)**
+**[Download lcm-update-20260813-233257.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-233257.zip)**
 
-DK-2210 compact labels: 1.1 x 0.65, QR 0.42 so barcode/material letters are not clipped.
+Machine queue + Up next: due date, estimated run time (from quote), drawing link.
 
 ## Install
 
