@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260813-233257.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-233257.zip)**
+**[Download lcm-update-20260813-234149.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-234149.zip)**
 
-Machine queue + Up next: due date, estimated run time (from quote), drawing link.
+Job board: faded part drawing (first page / photo) behind each card.
 
 ## Install
 
