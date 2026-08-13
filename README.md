@@ -2,19 +2,14 @@
 
 These zips are **program updates only**. They do not contain shop data.
 
-## Current package — use this one
+## Current package
 
-**[Download lcm-update-20260813-132538.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-132538.zip)**
+**[Download lcm-update-20260813-133358.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-133358.zip)**
 
 Same file: **[lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)**
 
-Fixes the Quotes page crash (Maximum update depth exceeded). Keeps the EMJ calculator and Settings price book.
+Puts the EMJ calculator back next to Cost / unit on Inventory → Material.
 
-Do **not** install `lcm-update-20260813-132024.zip` — that one has the crash.
+## Install
 
-## Install on the office PC
-
-1. Click the download link. Save the zip (do not unzip it).
-2. Open LCM → **Settings → Update app…**
-3. Choose that zip.
-4. Restart LCM on the host PC, then refresh phones.
+Settings → **Update app…** → this zip → restart LCM → refresh phones.
