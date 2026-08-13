@@ -2,13 +2,15 @@
 
 These zips are **program updates only**. They do not contain shop data.
 
-## Current package
+## Current package — use this one
 
-**[Download latest: lcm-update-20260813-132024.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-132024.zip)**
+**[Download lcm-update-20260813-132538.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-132538.zip)**
 
 Same file: **[lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)**
 
-Fixes the Quotes page crash (Maximum update depth exceeded) and restores the EMJ calculator + Settings price book.
+Fixes the Quotes page crash (Maximum update depth exceeded). Keeps the EMJ calculator and Settings price book.
+
+Do **not** install `lcm-update-20260813-132024.zip` — that one has the crash.
 
 ## Install on the office PC
 
