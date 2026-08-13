@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260813-193643.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-193643.zip)**
+**[Download lcm-update-20260813-194346.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-194346.zip)**
 
-Sample label now prints **one** Brother QL-810W sticker at **1.1" × 1.6"**.
+QL-810W sample print opens its own window. Pick the DK tape that is in the printer.
 
 ## Install
 
