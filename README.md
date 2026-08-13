@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260813-211837.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-211837.zip)**
+**[Download lcm-update-20260813-212406.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-212406.zip)**
 
-Stock labels sized for **DK-2210** (1.1" continuous, 3.5" cut). Prints every barcoded piece (no 40 cap).
+DK-2210 compact stock labels: **1.1" × 0.6"** — QR left, text as large as remaining space.
 
 ## Install
 
