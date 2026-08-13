@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260813-194346.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-194346.zip)**
+**[Download lcm-update-20260813-211837.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-211837.zip)**
 
-QL-810W sample print opens its own window. Pick the DK tape that is in the printer.
+Stock labels sized for **DK-2210** (1.1" continuous, 3.5" cut). Prints every barcoded piece (no 40 cap).
 
 ## Install
 
