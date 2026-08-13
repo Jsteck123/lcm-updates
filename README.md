@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260813-212406.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-212406.zip)**
+**[Download lcm-update-20260813-213010.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260813-213010.zip)**
 
-DK-2210 compact stock labels: **1.1" × 0.6"** — QR left, text as large as remaining space.
+Restores Settings **Label / phone address** (shopPublicUrl). Your saved value is still in shop data.
 
 ## Install
 
