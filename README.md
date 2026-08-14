@@ -1,12 +1,12 @@
-# LCM update packages
+# LMC update packages
 
 These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260814-004001.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-004001.zip)**
+**[Download lcm-update-20260814-005046.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-005046.zip)**
 
-Customer PO editor fits the window — no bottom slider.
+LMC material Calculator: auto-fills inventory cost/unit ($/inch) from size + book.
 
 ## Install
 
