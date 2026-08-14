@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260814-140341.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-140341.zip)**
+**[Download lcm-update-20260814-141746.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-141746.zip)**
 
-Assign Queue restored to the menu.
+Assign Queue checks out the job to that operator.
 
 ## Install
 
