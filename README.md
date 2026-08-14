@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260814-142308.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-142308.zip)**
+**[Download lcm-update-20260814-144543.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-144543.zip)**
 
-PO Assign job checks out the board.
+Running order sorted/filtered by due date.
 
 ## Install
 
