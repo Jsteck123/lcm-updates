@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260814-011147.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-011147.zip)**
+**[Download lcm-update-20260814-011432.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-011432.zip)**
 
-Stock shape on the master quoter is a normal field (no yellow box).
+Removed the two lone question marks from the top header.
 
 ## Install
 
