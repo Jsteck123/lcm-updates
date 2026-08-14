@@ -4,10 +4,10 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260814-125755.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-125755.zip)**
+**[Download lcm-update-20260814-131257.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-131257.zip)**
 
-Settings → Restart LCM.
+Job Board PO filter with due dates.
 
 ## Install
 
-Settings → **Update app…** → this zip → restart LCM.
+Settings → **Update app…** → this zip → Restart LCM.
