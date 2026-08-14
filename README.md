@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260814-011432.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-011432.zip)**
+**[Download lcm-update-20260814-012603.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-012603.zip)**
 
-Removed the two lone question marks from the top header.
+Job Board wording matches All Jobs / Available Jobs / My Jobs.
 
 ## Install
 
