@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260814-005301.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-005301.zip)**
+**[Download lcm-update-20260814-010934.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-010934.zip)**
 
-Calculator name: LCM material Calculator.
+Master quoter machines: dropdown, select multiple.
 
 ## Install
 
