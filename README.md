@@ -4,7 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260814-122828.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-122828.zip)**
+**[Download lcm-update-20260814-125755.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-125755.zip)**
+
+Settings → Restart LCM.
 
 ## Install
 
