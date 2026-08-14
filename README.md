@@ -4,9 +4,9 @@ These zips are **program updates only**. They do not contain shop data.
 
 ## Current package
 
-**[Download lcm-update-20260814-020156.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-020156.zip)**
+**[Download lcm-update-20260814-020642.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260814-020642.zip)**
 
-Two-vise nest: OP1 and OP2 in one cycle. Single jobs unchanged.
+Two-vise bonus: earned = OP1+OP2 quoted vs one cycle clock.
 
 ## Install
 
