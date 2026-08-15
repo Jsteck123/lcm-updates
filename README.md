@@ -2,20 +2,19 @@
 
 Latest: [lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)
 
-This build: [lcm-update-20260815-210144.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260815-210144.zip)
+This build: [lcm-update-20260815-215816.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260815-215816.zip)
 
 Install on the office host: **Settings → Update app → Choose file**. Shop data is not in the zip.
 
-**This build — Load lanes**
-- New **Load Lanes** page under Orders (admin only).
-- Each person (or machine) is a lane. Quoted hours stack on the next five weekdays, soonest due first.
-- Type rush hours (or a P/N) to find the first leftover hole. Quoted, on pace — not a promise.
-- Ship Calendar stays shipping. Assign Queue still hands the job out.
-- Unused admins (James / Pam) do not get empty lanes that steal the hole.
-- Names not on your machine list (old quote nicknames) do not get a machine lane.
+**This build — Per-OP assign / pull**
+- Jobs that run on more than one machine (lathe then mill then lathe) split into one Assign row and one Job Board card per remaining OP.
+- Assign OP1 to the lathe person, OP2 to the mill person. They take only their OP.
+- Single-machine multi-op jobs stay one card (Gayle still takes the whole mill job).
+- Quoting has a Machine row under Setup / Run — name the station for each OP.
+- Load on an OP card clocks only that OP. Wait OPn is a warning, not a lock.
+- Done OPn finishes that operation. The last remaining OP finishes the part / sends it to pack.
+- Load Lanes books each assigned OP on its person and machine.
 
 Also still in this package
-- Stock search and PO matching treat 4×2 and 2×4 as the same bar.
-- Odd leftover (1.3", 1.6") is the cut (LOC), not a stock size.
-- A remnant shorter than the cut does not cover the job.
-- Bigger bars show as Mill from — they do not auto-count as on hand.
+- Load Lanes (admin lookahead).
+- Stock search treats 4×2 and 2×4 as the same bar.
