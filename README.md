@@ -2,10 +2,11 @@
 
 Latest: [lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)
 
-This build: [lcm-update-20260816-034838.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260816-034838.zip)
+This build: [lcm-update-20260816-040226.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260816-040226.zip)
 
 Install on the office host: **Settings → Update app → Choose file**. Shop data is not in the zip.
 
-**This build — same stock popup on Inventory and Master Quoter**
-- Enter stock / Edit stock opens the same mill-lathe guide as RFQ and jobs.
-- Adding rack stock no longer shows How it sits or a leftover "stock" line.
+**This build — machine asks for material + LOC**
+- After Load, Stock always opens the same mill/lathe guide.
+- Office already filling the PO no longer skips that step.
+- Confirm stock requires material and length of cut.
