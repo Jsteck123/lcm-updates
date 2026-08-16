@@ -2,7 +2,7 @@
 
 Latest: [lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)
 
-This build: [lcm-update-20260816-031616.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260816-031616.zip)
+This build: [lcm-update-20260816-033925.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260816-033925.zip)
 
 Install on the office host: **Settings → Update app → Choose file**. Shop data is not in the zip.
 
