@@ -2,11 +2,8 @@
 
 Latest: [lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)
 
-This build: [lcm-update-20260816-043525.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260816-043525.zip)
+This build: [lcm-update-20260816-140119.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260816-140119.zip)
 
-Install on the office host: **Settings → Update app → Choose file**. Shop data is not in the zip.
+**RESTORE zip** — program files put back to the USB backup from Aug 16, 2026 02:32.
 
-**This build — Load lanes no longer repeats the same P/N all week**
-- Same person + same part = one block.
-- Waiting OPs do not fill the week.
-- A long job still paints across days; the name only prints on day one.
+Install: **Settings → Update app → Choose file**. Shop data (quotes, jobs, POs, inventory) is not in the zip and is not replaced.
