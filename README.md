@@ -2,8 +2,8 @@
 
 Latest: [lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)
 
-This build: [lcm-update-20260816-140119.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260816-140119.zip)
+This build: [lcm-update-20260817-165329.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260817-165329.zip)
 
-**RESTORE zip** — program files put back to the USB backup from Aug 16, 2026 02:32.
+Install: **Settings → Update app → Choose file**. Shop data is not in the zip.
 
-Install: **Settings → Update app → Choose file**. Shop data (quotes, jobs, POs, inventory) is not in the zip and is not replaced.
+**This build** — Machine page op table shows quoted setup and quoted run (per piece) under the actual times. No other screens changed.
