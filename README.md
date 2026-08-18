@@ -2,8 +2,8 @@
 
 Latest: [lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)
 
-This build: [lcm-update-20260817-200741.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260817-200741.zip)
+This build: [lcm-update-20260818-140259.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260818-140259.zip)
 
 Install: **Settings → Update app → Choose file**. Shop data is not in the zip.
 
-**This build** — Job board opens on My Jobs for operators. Office / admin still opens on All Jobs.
+**This build** — Scan understands rack LCMM stickers (not just piece LCM- codes). An open saw ticket for that material attaches; deduct spends inches and marks the cut. Saw queue has Scan bar for this cut.
