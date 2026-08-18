@@ -2,8 +2,8 @@
 
 Latest: [lcm-update-latest.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-latest.zip)
 
-This build: [lcm-update-20260818-171610.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260818-171610.zip)
+This build: [lcm-update-20260818-173126.zip](https://github.com/Jsteck123/lcm-updates/raw/main/lcm-update-20260818-173126.zip)
 
 Install: **Settings → Update app → Choose file**. Shop data is not in the zip.
 
-**This build** — Pause mid-setup says Resume OP1 Setup (not Start Runtime). Runtime label is for all pieces. Quoted run next to the clock is qty × each, marked all.
+**This build** — Request saw cut: X/Y/Z start blank, tap a field to replace it, On the rack shows available + suggested stock. Also holds typed numbers (no quote snap-back).
