@@ -10,7 +10,7 @@ Update this file when a behavior is **added or replaced on purpose**.
 It lives in `docs/` (source), ships in every update zip, copies to
 `artifacts/` (new Grok project), and is pushed to GitHub `lcm-updates`.
 
-Last reviewed: 2026-08-19 · shipped in 20260819-174653
+Last reviewed: 2026-08-19 · shipped in 20260819-175632
 
 ## Hard rules (every page)
 
@@ -166,14 +166,16 @@ These are the patches already sent to the shop. Each line is a locked intent.
 
 ## Restore next (called out as missing or broken)
 
-Use this list when putting things back. Do not invent new work until these are true.
+Fixed in this pass (keep working):
 
-- Good so far must not drop a number the operator is staring at (11 → 10).
-- Duplicate quote rows on search must stay gone (one Rev A, one Rev E max).
-- Reset pack must clear the check under Pack, not only toast.
-- Multi-op: one card with working OP buttons — not three clone cards, not a card with no OP labels.
-- PIN prompt must open the PIN box and then finish the print/save.
-- Shop-guide, barcode, and brother-label-print must never be replaced by a stub.
+- Good so far: merge cannot steal a tap (11 stays 11). Clock cap may lock plus; it must not drop the number.
+- Reset pack: clears line checks, deletes that order’s box records, merge keeps the reset.
+- Multi-op: 2+ timed ops → one card with OP1 / OP2 / OP3 even if the quote bag was messy. Quote lookup uses richest recipe.
+- PIN dialog + continue already wired on print / save / chat / pack label.
+- One quote per part+rev already locked on save + open.
+- shop-guide / barcode / brother-label-print are full files, not stubs.
+
+Still watch: if a screen still shows a clone card or a leftover pack check after this zip, say so — do not rewrite those files from memory.
 
 ## New Grok project
 
