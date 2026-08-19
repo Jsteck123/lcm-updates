@@ -4,9 +4,10 @@ Shop-facing behaviors that **must still work** after every patch.
 If a patch would remove one, stop. James has to ask for that removal.
 
 Update this file when a behavior is **added or replaced on purpose**.
-Copy to `docs/LCM-FEATURE-LOCK.md` in the same turn.
+It lives in `docs/` (source), ships in every update zip, copies to
+`artifacts/` (new Grok project), and is pushed to GitHub `lcm-updates`.
 
-Last reviewed: 2026-08-19
+Last reviewed: 2026-08-19 · shipped in 20260819-174013
 
 ## Hard rules (every page)
 
