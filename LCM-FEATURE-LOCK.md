@@ -10,7 +10,7 @@ Update this file when a behavior is **added or replaced on purpose**.
 It lives in `docs/` (source), ships in every update zip, copies to
 `artifacts/` (new Grok project), and is pushed to GitHub `lcm-updates`.
 
-Last reviewed: 2026-08-19 · shipped in 20260819-210647
+Last reviewed: 2026-08-19 · shipped in 20260819-213801
 
 ## Hard rules (every page)
 
@@ -64,6 +64,7 @@ Last reviewed: 2026-08-19 · shipped in 20260819-210647
 - Request cut: blank sizes, select-all on tap, show rack stock + suggested sizes.
 - Rack suggestions only when size is close to what you typed (e.g. 2x1, 1x2, 3.5x2).
 - Shop WO / Drawing / CAD stay on the card. Box labels do **not** print from this card.
+- **Done → pack** stays on the card for single-machine **and** multi-OP jobs. Admin sees it on released cards without taking the job (shelf parts / already ran). That closes the board card, cut queue, and machine queues and puts the line on Packing Table. Packed there prints the box QR.
 
 ## Assign / load lanes
 
@@ -175,6 +176,7 @@ These are the patches already sent to the shop. Each line is a locked intent.
 | 20260819-152746 | Save updates the existing part+rev — never a second copy. |
 | 20260819-174013 | Feature lock + patch workflow ship in every update zip. |
 | 20260819-packing | Extras: operator Good / Minor issues / scrap, 4-digit sharpie UIN, send to packing. Packing shows ordered vs ran vs extra. Only Packing Table prints extra QR labels (who, when, part, rev, notes). Packed prints box then extra stickers. Good so far may go past job qty. |
+| 20260819-donepack | Job Board Done → pack back on multi-OP cards. Admin can Done → pack without taking the job when parts are on the shelf or already ran. |
 
 ## Restore next (called out as missing or broken)
 
