@@ -10,7 +10,7 @@ Update this file when a behavior is **added or replaced on purpose**.
 It lives in `docs/` (source), ships in every update zip, copies to
 `artifacts/` (new Grok project), and is pushed to GitHub `lcm-updates`.
 
-Last reviewed: 2026-08-19 · shipped in 20260819-175632
+Last reviewed: 2026-08-19 · shipped in 20260819-210647
 
 ## Hard rules (every page)
 
@@ -19,7 +19,8 @@ Last reviewed: 2026-08-19 · shipped in 20260819-175632
 - Opening Master Quoter folds leftover duplicate rows. Toast if any were folded.
 - Empty part # on the quoter blanks the whole form (no leftover fields).
 - Number boxes accept shop math (`12*12`, `12x12`) on blur / Enter.
-- Soft tints are the same shop-wide: Hold, Open, Due soon, Overdue, My Job.
+- Up next on a machine card is that machine’s **open** queue only. A part that already ran (gone from the job board, packed, qty in, or OP done) must not stay in Up next.
+- Due date on Up next / board / calendar is the **PO calendar day** (the 25th stays the 25th). Do not shift a day for timezone.
 - How-to on every page stays in sync with the buttons that are actually there.
 - Surgical edits only. Never overwrite a whole existing source file.
 - Snapshot before a patch (`node scripts/patch-guard.mjs start`). Wipe → abort restore.
@@ -72,9 +73,9 @@ Last reviewed: 2026-08-19 · shipped in 20260819-175632
 
 ## Machine station / timer
 
-- Timer lives on the station, not the board.
+- Active Jobs **Start** on a paused job (including from yesterday) **resumes** that same Setup/Runtime clock. Do not send them to Open machine first.
 - Pause setup says **Resume OP1 Setup** (named OP). Runtime is for **all pieces**, not per piece.
-- **Good so far:** never steal a tap. If the operator is watching, the count does not drop.
+- **Good so far:** never steal a tap. If the operator is watching, the count does not drop. Clock still caps how fast they tap. They **may go past job qty** (about 10 extras) so over-run parts can go to packing.
 - No quoted time: pace is **20 seconds per piece from clock start** (not 20s per click, not 45s).
 - Waiting until qty 12 then tapping 12 still needs 12 × 20s of clock — not 20s between clicks.
 - Plus lock pad shows **why** plus is locked.
@@ -87,6 +88,16 @@ Last reviewed: 2026-08-19 · shipped in 20260819-175632
 - After a good PIN, **the original action continues**. Do not make them tap again.
 - Stale token → clear it, show PIN, retry once.
 - Chat and feedback photos wait for unlock, then continue.
+
+## Packing Table
+
+- Nav item **Packing Table** (Floor, next to Saw / Cut queue).
+- Shows every PO line marked **ready for pack** that is not packed yet. One card per PO, lines under it.
+- Each line has the drawing picture, part #, rev, qty, description.
+- **Packed** prints the existing 1.1×2 box label (QR left: customer, PO, part, rev, qty) and the line leaves the queue.
+- Extra parts: operator marks Good / Minor issues / scrap, writes a **4-digit UIN**, sends to packing. Packing shows ordered vs ran vs extra as soon as they send (example: ordered 10, ran 11, pack 10). **Only Packing Table prints** the extra QR label (who, when, part, rev, notes, UIN). Packed prints the box label then extra UIN stickers. Machine stations do not print those stickers.
+- UIN lookup on Packing Table (and `/uin` QR) finds the notes.
+- Pam’s truck scan is still the box QR → `/box`. This page does not replace that.
 
 ## Pack / Ship Calendar
 
@@ -118,7 +129,7 @@ Last reviewed: 2026-08-19 · shipped in 20260819-175632
 
 ## Customer orders
 
-- Import package: PO PDF + drawings + CAD. Same PO number revises, does not duplicate. Cost is never auto-changed.
+- Job Board **Open full PO** opens that PO on Customer Orders. Picking another PO in the list stays on the one they picked — it must not snap back to the board link.
 - Line not released until office checks PDF rev + stock (+ CAD if present).
 - Follow-up banner and pack/ship stay on the order.
 
@@ -163,6 +174,7 @@ These are the patches already sent to the shop. Each line is a locked intent.
 | 20260819-152308 | Quoter: fold extra copies when you open the page. |
 | 20260819-152746 | Save updates the existing part+rev — never a second copy. |
 | 20260819-174013 | Feature lock + patch workflow ship in every update zip. |
+| 20260819-packing | Extras: operator Good / Minor issues / scrap, 4-digit sharpie UIN, send to packing. Packing shows ordered vs ran vs extra. Only Packing Table prints extra QR labels (who, when, part, rev, notes). Packed prints box then extra stickers. Good so far may go past job qty. |
 
 ## Restore next (called out as missing or broken)
 
