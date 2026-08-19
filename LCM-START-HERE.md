@@ -1,8 +1,9 @@
 # New Grok project / new workspace — start here
 
-This folder (`/workspace/artifacts`) is what **survives** when James opens a new
-Grok project or a new conversation. The shop program may be missing until an
-update zip is restored. These files must still be followed.
+These files live in **source** (`docs/`, `AGENTS.project.md`, `scripts/patch-guard.mjs`).
+Every **Settings → Update app** zip carries the latest copy. GitHub
+`Jsteck123/lcm-updates` keeps the same files. `artifacts/` is the copy that
+mounts on a new Grok project.
 
 ## Do this first (agent)
 
