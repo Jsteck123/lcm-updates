@@ -10,7 +10,7 @@ Update this file when a behavior is **added or replaced on purpose**.
 It lives in `docs/` (source), ships in every update zip, copies to
 `artifacts/` (new Grok project), and is pushed to GitHub `lcm-updates`.
 
-Last reviewed: 2026-08-19 · shipped in 20260819-213801
+Last reviewed: 2026-08-20 · shipped in 20260820-184218
 
 ## Hard rules (every page)
 
@@ -140,6 +140,7 @@ Last reviewed: 2026-08-19 · shipped in 20260819-213801
 - GitHub: `Jsteck123/lcm-updates` (dated zip + `lcm-update-latest.zip` + these lock files).
 - Live program snapshot: `artifacts/lcm-live-src`. Pre-patch undo: `artifacts/lcm-pre-patch`.
 - Host data restore is a **data-only** path, not a program overwrite.
+- USB full backup builds on the shop PC in Node (does not need Python). File dates before 1980 or after 2107 do not crash the zip (Windows Compress-Archive LastWriteTime bug).
 - What’s new dialog after an update. Changelog rows stay readable.
 
 ---
@@ -177,6 +178,7 @@ These are the patches already sent to the shop. Each line is a locked intent.
 | 20260819-174013 | Feature lock + patch workflow ship in every update zip. |
 | 20260819-packing | Extras: operator Good / Minor issues / scrap, 4-digit sharpie UIN, send to packing. Packing shows ordered vs ran vs extra. Only Packing Table prints extra QR labels (who, when, part, rev, notes). Packed prints box then extra stickers. Good so far may go past job qty. |
 | 20260819-donepack | Job Board Done → pack back on multi-OP cards. Admin can Done → pack without taking the job when parts are on the shelf or already ran. |
+| 20260820-usbbak | USB full backup no longer dies on Windows “DateTimeOffset … Zip file timestamp”. Node zip, dates clamped to 1980–2107. |
 
 ## Restore next (called out as missing or broken)
 
